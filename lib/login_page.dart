@@ -42,11 +42,11 @@ class _LoginPageState extends State<LoginPage> {
               },
               child: Text('Login'),
             ),
-            ElevatedButton(
+            TextButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/register');
               },
-              child: Text('apakah anda belum mempunyai akun?'),
+              child: Text('Apakah Anda belum memiliki akun? Silahkan register'),
             ),
           ],
         ),
